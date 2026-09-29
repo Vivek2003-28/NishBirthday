@@ -1,4 +1,5 @@
 {
+  "name": "nish-birthday",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
