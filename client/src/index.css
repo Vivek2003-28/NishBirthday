@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F2EB;
+    color: #121214;
+  }
+
+  h1, h2, h3, .font-serif-title {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-display {
+    font-family: 'Chivo', sans-serif;
+  }
+
+  .font-mono {
+    font-family: 'Space Mono', monospace;
+  }
+
+  .font-handwriting {
+    font-family: 'Caveat', cursive;
+  }
+}
+
+/* Birthday Times Framer Newspaper Design System */
+.newspaper-card {
+  background-color: #FFFFFF;
+  border: 2px solid #121214;
+  box-shadow: 8px 8px 0px #121214;
+  transition: all 0.25s ease-in-out;
+}
+
+.newspaper-card:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 12px 12px 0px #121214;
+}
+
+.postmark-stamp {
+  font-family: 'Space Mono', monospace;
+  border: 2px dashed #121214;
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Scribble B&W Art Filters */
+.bw-sketch {
+  filter: grayscale(100%) contrast(125%) brightness(95%);
+  transition: filter 0.4s ease;
+}
+
+.bw-sketch-hover:hover .bw-sketch {
+  filter: grayscale(0%) contrast(100%);
+}
+
+/* Paper Noise Texture overlay */
+.newsprint-grain {
+  background-image: radial-gradient(rgba(18, 18, 20, 0.08) 1px, transparent 1px);
+  background-size: 12px 12px;
+}
+
+/* Custom Scrollbar for Newspaper Theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F2EB;
+}
+::-webkit-scrollbar-thumb {
+  background: #121214;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
+
+
+
+
