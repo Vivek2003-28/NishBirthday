@@ -65,7 +65,7 @@ export default function CountdownTimer({ onCelebrate, onStartQuest }) {
     const calculateTimeLeft = () => {
       const now = new Date();
       const currentYear = now.getFullYear();
-      
+
       let bdayDate = new Date(currentYear, 9, 2, 0, 0, 0); // Oct 2nd
 
       if (now.getTime() > bdayDate.getTime() + 86400000) {
@@ -113,7 +113,7 @@ export default function CountdownTimer({ onCelebrate, onStartQuest }) {
 
   return (
     <section id="hero" className="relative min-h-screen pt-24 pb-20 px-4 max-w-7xl mx-auto text-[#121214]">
-      
+
       {/* 1. NEWSPAPER TOP BAR (Birthday Times Style) */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-b-2 border-dashed border-[#121214] pb-4 mb-10 font-mono text-xs text-[#121214] font-bold">
         <div className="flex items-center gap-3">
@@ -135,19 +135,19 @@ export default function CountdownTimer({ onCelebrate, onStartQuest }) {
           THE BIRTHDAY TIMES
         </h1>
         <p className="font-handwriting text-3xl sm:text-4xl text-[#121214] mt-3 font-bold">
-          "Celebrating 25 Years of Queen Nishmitha V G!"
+          "Celebrating 23 Years of Queen Nishmitha V G!"
         </p>
       </div>
 
       {/* 3. NEWSPAPER MAIN GRID (COLUMNS + CAROUSEL) */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start mb-16 border-b-2 border-dashed border-[#121214] pb-14">
-        
+
         {/* Left Column: Gazette Story & Countdown */}
         <div className="lg:col-span-7 space-y-6">
-          
+
           <div className="newspaper-card rounded-2xl p-6 sm:p-8 bg-white relative">
             <h2 className="text-2xl sm:text-3xl font-extrabold font-serif-title text-[#121214] mb-3">
-              Extra! Extra! Read All About Queen Nishmitha 🎉
+              Extra! Extra! Read All About Queen Nishmitha
             </h2>
             <p className="text-slate-800 text-sm sm:text-base leading-relaxed font-medium mb-4">
               The world has changed immeasurably, yet we still see a lot of her radiant joy in our everyday lives — from campus laughter and spontaneous adventures to unwavering friendship and pure warmth.
@@ -169,14 +169,14 @@ export default function CountdownTimer({ onCelebrate, onStartQuest }) {
             {timeLeft.isBirthday ? (
               <div className="py-4 text-center">
                 <h2 className="text-2xl sm:text-3xl font-extrabold font-serif-title text-[#121214] mb-2">
-                  IT'S QUEEN NISHMITHA'S BIRTHDAY TODAY! 🎉
+                  IT'S QUEEN NISHMITHA'S BIRTHDAY TODAY!
                 </h2>
                 <p className="text-slate-800 text-xs mb-4 font-mono font-bold">All hail Queen Nishmitha! Raise a glass!</p>
                 <button
                   onClick={triggerConfetti}
                   className="px-6 py-3 rounded-full bg-[#121214] text-[#F5F2EB] font-bold text-xs uppercase shadow-md hover:bg-slate-900 border-2 border-[#121214] cursor-pointer"
                 >
-                  Pop Birthday Confetti 🥂
+                  Pop Birthday Confetti
                 </button>
               </div>
             ) : (
@@ -211,7 +211,7 @@ export default function CountdownTimer({ onCelebrate, onStartQuest }) {
               onClick={triggerConfetti}
               className="px-6 py-4 rounded-full bg-white text-[#121214] font-bold text-xs uppercase tracking-wider border-2 border-[#121214] hover:bg-slate-100 transition-all flex items-center gap-2 cursor-pointer shadow-md"
             >
-              <Sparkles className="w-4 h-4 text-amber-500" /> Send Birthday Sparkles ✨
+              <Sparkles className="w-4 h-4 text-amber-500" /> Send Birthday Sparkles
             </button>
           </div>
 
@@ -257,7 +257,7 @@ export default function CountdownTimer({ onCelebrate, onStartQuest }) {
                         alt={cover.title}
                         className="w-full h-full object-cover bw-sketch"
                       />
-                      
+
                       <span className="absolute bottom-3 left-3 postmark-stamp text-[10px] bg-white font-bold text-[#121214]">
                         {cover.tag}
                       </span>
