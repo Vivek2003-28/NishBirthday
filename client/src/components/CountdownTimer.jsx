@@ -5,36 +5,36 @@ import confetti from 'canvas-confetti';
 
 const COVER_STACK_PHOTOS = [
   {
-    id: 1,
-    url: '/images/real/nish1.jpg',
+    id: 2,
+    url: '/images/real/nish3.jpg',
     title: 'Spontaneous Store Selfie 🤳',
     subtitle: 'Pure joyful energy & playful vibes',
     tag: 'EDITION #01'
   },
   {
-    id: 2,
-    url: '/images/real/nish2.jpg',
+    id: 1,
+    url: '/images/real/nish1.jpg',
     title: 'Traditional Grace in Maroon Silk 🌸',
     subtitle: 'Timeless ethnic elegance & radiant smile',
     tag: 'EDITION #02'
   },
   {
     id: 3,
-    url: '/images/real/nish3.jpg',
+    url: '/images/real/nish4.jpg',
     title: 'Pure Heart & Baby Giggles 👶',
     subtitle: 'Gentle soul & infectious laughter',
     tag: 'EDITION #03'
   },
   {
     id: 4,
-    url: '/images/real/nish4.jpg',
+    url: '/images/real/nish2.jpg',
     title: 'MITE Campus Chronicles 🎓',
     subtitle: 'Squad banter & college memories',
     tag: 'EDITION #04'
   },
   {
     id: 5,
-    url: '/images/real/nish5.jpg',
+    url: '/images/real/nish9.jpg',
     title: 'Sun-Kissed Vacation Vibes 🌴',
     subtitle: 'Effortless cool & palm tree escapes',
     tag: 'EDITION #05'
@@ -205,7 +205,7 @@ export default function CountdownTimer({ onCelebrate, onStartQuest }) {
               onClick={onStartQuest}
               className="px-8 py-4 rounded-full bg-[#121214] text-[#F5F2EB] font-bold text-xs uppercase tracking-widest shadow-xl hover:bg-slate-900 hover:scale-105 transition-all flex items-center gap-2 border-2 border-[#121214] cursor-pointer"
             >
-              Start Gazette Quest 👑 →
+              Start Gazette Quest  →
             </button>
             <button
               onClick={triggerConfetti}

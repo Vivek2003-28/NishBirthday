@@ -119,7 +119,7 @@ export default function DigitalCake({ isAudioPlaying, toggleAudio, isLocked }) {
 
   return (
     <section id="cake" className="py-20 px-4 max-w-5xl mx-auto relative">
-      
+
       {/* Title Header */}
       <div className="text-center mb-16">
         <div className="inline-block mb-4">
@@ -137,15 +137,15 @@ export default function DigitalCake({ isAudioPlaying, toggleAudio, isLocked }) {
 
       {/* Main Container */}
       <div className="newspaper-card rounded-2xl p-6 sm:p-12 relative flex flex-col items-center text-[#121214] bg-[#FAF8F3]">
-        
+
         {/* DIGITAL CAKE & CANDLES */}
         <div className="relative py-12 flex flex-col items-center justify-center select-none">
-          
+
           {/* CANDLES ROW */}
           <div className="flex items-center gap-6 mb-2 z-10">
             {[1, 2, 3, 4, 5].map((cNum) => (
               <div key={cNum} className="relative flex flex-col items-center cursor-pointer" onClick={extinguishCandles}>
-                
+
                 {/* Flame */}
                 {candlesLit && (
                   <div className="w-4 h-8 rounded-full bg-gradient-to-t from-amber-500 via-yellow-200 to-white animate-gold-flame mb-1 shadow-[0_0_12px_#f59e0b]" />
@@ -191,11 +191,10 @@ export default function DigitalCake({ isAudioPlaying, toggleAudio, isLocked }) {
             <>
               <button
                 onClick={isListeningMic ? stopMicListening : startMicListening}
-                className={`px-6 py-3 rounded-full text-xs font-mono font-bold uppercase tracking-wider transition-all flex items-center gap-2 border-2 border-[#121214] cursor-pointer shadow-[4px_4px_0px_#121214] ${
-                  isListeningMic
+                className={`px-6 py-3 rounded-full text-xs font-mono font-bold uppercase tracking-wider transition-all flex items-center gap-2 border-2 border-[#121214] cursor-pointer shadow-[4px_4px_0px_#121214] ${isListeningMic
                     ? 'bg-rose-600 text-white border-rose-900 animate-pulse'
                     : 'bg-[#121214] hover:bg-[#2a2a2e] text-white'
-                }`}
+                  }`}
               >
                 <Mic className="w-4 h-4 text-white" />
                 {isListeningMic ? `Listening... (${blowStrength}%)` : 'Blow into Mic 🎤'}
@@ -243,18 +242,18 @@ export default function DigitalCake({ isAudioPlaying, toggleAudio, isLocked }) {
 
               <div className="space-y-6 text-slate-800 font-sans leading-relaxed text-base sm:text-lg">
                 <p>
-                  Happy Birthday to one of the most genuine, radiant, and loyal souls to ever step into our lives! 🌟
+                  Happy Birthday to one of the most genuine, radiant, and loyal souls to ever step into my life! 🌟
                 </p>
                 <p>
-                  From unforgettable campus memories and shared laughter to standing tall as a true best friend through every milestone — having you in our corner makes every journey brighter and more meaningful.
+                  From unforgettable campus memories and shared laughter to standing tall as a true best friend through every milestone — having you in my corner makes me journey brighter and more meaningful.
                 </p>
                 <p>
                   May this year open doors to extraordinary accomplishments, peaceful days, unending happiness, and memories that last a lifetime! Keep shining with that contagious smile that brightens up every room.
                 </p>
                 <div className="border-t-2 border-[#121214] pt-6 mt-8">
                   <p className="font-serif text-xl sm:text-2xl text-[#121214] text-right font-bold">
-                    With all our love & admiration, <br />
-                    <span className="text-slate-700 text-base font-sans mt-2 block font-mono uppercase tracking-widest font-bold">Your Best Friend & Squad 💖</span>
+                    With all my love & admiration, <br />
+                    <span className="text-slate-700 text-base font-sans mt-2 block font-mono uppercase tracking-widest font-bold">Your Best Friend Vivek</span>
                   </p>
                 </div>
               </div>

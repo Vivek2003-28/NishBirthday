@@ -15,14 +15,14 @@ export default function RoyalFairytaleStory() {
 
   return (
     <section id="story" className="py-16 px-4 max-w-4xl mx-auto relative text-[#121214]">
-      
+
       {/* Section Tag Header */}
       <div className="text-center mb-10">
         <span className="font-mono text-xs uppercase px-3.5 py-1.5 bg-[#121214] text-[#F5F2EB] font-bold rounded-sm border border-[#121214] shadow-sm">
-          02. SPECIAL GAZETTE EDITORIAL 📜
+          02. SPECIAL GAZETTE EDITORIAL
         </span>
         <h2 className="text-3xl sm:text-5xl font-serif font-bold text-[#121214] mt-4 tracking-tight">
-          The Legend of Queen Nishmitha 👑
+          The Legend of Queen Nishmitha
         </h2>
       </div>
 
@@ -34,7 +34,7 @@ export default function RoyalFairytaleStory() {
         transition={{ duration: 0.5 }}
         className="newspaper-card rounded-2xl md:rounded-3xl p-6 sm:p-10 bg-[#FAF8F3] border-2 border-[#121214] shadow-[8px_8px_0px_#121214] relative"
       >
-        
+
         {/* Postmark Header */}
         <div className="flex flex-wrap items-center justify-between border-b-2 border-[#121214] pb-4 mb-6 gap-2 text-xs font-mono">
           <div className="flex items-center gap-2 text-[#121214]">
@@ -48,7 +48,7 @@ export default function RoyalFairytaleStory() {
 
         {/* Story Body */}
         <div className="space-y-6 text-center sm:text-left">
-          
+
           <div className="p-6 sm:p-8 rounded-xl bg-white border-2 border-dashed border-[#121214] relative">
             <p className="text-slate-800 text-base sm:text-xl font-serif leading-relaxed italic">
               "From spontaneous store selfies and campus adventures to radiating pure grace in traditional silk, Nishmitha brings endless joy, genuine warmth, and unyielding laughter wherever she goes. Here's to a queen who lights up every room and makes everyday life an unforgettable fairytale!"

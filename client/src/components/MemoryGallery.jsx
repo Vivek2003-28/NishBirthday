@@ -6,8 +6,8 @@ import ScribblePostcard from './ScribblePostcard';
 const COLUMN_1 = [
   {
     id: 'c1_1',
-    url: '/images/real/nish1.jpg',
-    title: 'Spontaneous Store Selfie 🤳',
+    url: '/images/real/nish14.jpg',
+    title: 'Spontaneous Store Selfie ',
     caption: 'Always bringing the fun energy — Nishmitha pulling her iconic happy face in the store background!',
     tag: 'Playful Vibe',
     date: 'Daily Joy',
@@ -16,7 +16,7 @@ const COLUMN_1 = [
   {
     id: 'c1_2',
     url: '/images/real/nish6.jpg',
-    title: 'Red Kurta Power Pose 💪✨',
+    title: 'Red Kurta Power Pose ',
     caption: 'Flexing bicep confidence in red ethnic attire at college campus!',
     tag: 'Boss Energy',
     date: 'Campus Life',
@@ -24,8 +24,8 @@ const COLUMN_1 = [
   },
   {
     id: 'c1_3',
-    url: '/images/real/nish5.jpg',
-    title: 'Festive Green Glamour 💚',
+    url: '/images/real/nish13.jpg',
+    title: 'Festive Green Glamour ',
     caption: 'Stunning in green ethnic attire, capturing candid photo moments!',
     tag: 'Festive Vibe',
     date: 'Golden Moments',
@@ -37,7 +37,7 @@ const COLUMN_2 = [
   {
     id: 'c2_1',
     url: '/images/real/nish4.jpg',
-    title: 'MITE Campus Chronicles 🎓',
+    title: 'MITE Campus Chronicles ',
     caption: 'Campus laughter, squad banter, and leaning on bestie — college memories that last forever!',
     tag: 'Campus Life',
     date: 'Class of 26',
@@ -46,7 +46,7 @@ const COLUMN_2 = [
   {
     id: 'c2_2',
     url: '/images/real/nish7.jpg',
-    title: 'River Rafting Thrills 🌊🚣',
+    title: 'River Rafting Thrills ',
     caption: 'Helmets on, lifejackets strapped, paddling through wild waters with pure excitement!',
     tag: 'Adventure Vibe',
     date: 'River Rafting',
@@ -54,8 +54,8 @@ const COLUMN_2 = [
   },
   {
     id: 'c2_3',
-    url: 'client/dist/images/real/WhatsApp Image 2026-09-28 at 11.34.05 PM (2).jpeg',
-    title: 'Cosmic Starry Night Horizon 🌌',
+    url: '/images/real/nish11.jpg',
+    title: 'Cosmic Starry Night Horizon ',
     caption: 'Gazing up at billions of shining stars in the midnight sky.',
     tag: 'Starry Sky',
     date: 'Midnight Magic',
@@ -67,7 +67,7 @@ const COLUMN_3 = [
   {
     id: 'c3_1',
     url: '/images/real/nish9.jpg',
-    title: 'Poolside Palm Tree Chill 🌴🕶️',
+    title: 'Poolside Palm Tree Chill ',
     caption: 'Sunglasses on, tropical palm trees behind, soaking up summer poolside warmth with bestie!',
     tag: 'Vacation Mode',
     date: 'Sunny Escape',
@@ -76,7 +76,7 @@ const COLUMN_3 = [
   {
     id: 'c3_2',
     url: '/images/real/nish3.jpg',
-    title: 'Pure Heart & Baby Giggles 👶💛',
+    title: 'Pure Heart & Baby Giggles ',
     caption: 'Her gentle, caring soul shines brightest here holding the little one with that pure smile!',
     tag: 'Heartwarming',
     date: 'Precious Moments',
@@ -85,7 +85,7 @@ const COLUMN_3 = [
   {
     id: 'c3_3',
     url: '/images/real/nish10.jpg',
-    title: 'Auditorium Candid Glance 🏛️✨',
+    title: 'Auditorium Candid Glance ',
     caption: 'Turning around with that bright, curious look during college seminar sessions.',
     tag: 'Candid Shot',
     date: 'Seminar Hall',
@@ -96,8 +96,8 @@ const COLUMN_3 = [
 const COLUMN_4 = [
   {
     id: 'c4_1',
-    url: '/images/real/nish2.jpg',
-    title: 'Traditional Grace in Maroon Silk 🌸',
+    url: '/images/real/nish1.jpg',
+    title: 'Traditional Grace in Maroon Silk ',
     caption: 'Pure elegance in a rich saree next to bestie in ethnic attire. Radiating timeless warmth!',
     tag: 'Ethnic Grace',
     date: 'Festive Vibes',
@@ -106,7 +106,7 @@ const COLUMN_4 = [
   {
     id: 'c4_2',
     url: '/images/real/nish8.jpg',
-    title: 'Golden Hour Photo Pose 📸💚',
+    title: 'Golden Hour Photo Pose ',
     caption: 'Posing gracefully while bestie captures the perfect picture in green ethnic outfit.',
     tag: 'Behind The Scenes',
     date: 'Photo Moment',
@@ -114,8 +114,8 @@ const COLUMN_4 = [
   },
   {
     id: 'c4_3',
-    url: 'client/dist/images/real/WhatsApp Image 2026-09-28 at 11.34.05 PM (1).jpeg',
-    title: 'Cliffside Golden Hour Peak 🌅',
+    url: '/images/real/nish9.jpg ',
+    title: 'Cliffside Golden Hour Peak ',
     caption: 'Standing at the peak watching the golden sunset glow.',
     tag: 'Golden Hour',
     date: 'Sunset Vista',

@@ -224,6 +224,10 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', mongoConnected: isMongoConnected, time: new Date() });
 });
 
-app.listen(PORT, () => {
-  console.log(`🚀 Nishmitha Birthday API Server running on port ${PORT}`);
-});
+if (process.env.NODE_ENV !== 'production' && !process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`🚀 Nishmitha Birthday API Server running on port ${PORT}`);
+  });
+}
+
+export default app;
